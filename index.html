@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AutoPro — Premium Custom Car Seat Covers | Karol Bagh, New Delhi</title>
+<meta name="description" content="AutoPro crafts premium custom car seat covers in Karol Bagh, New Delhi — leather cut, quilted and stitched to your exact car. Doorstep fitting across Delhi NCR.">
+<meta name="theme-color" content="#0B0B0D">
+<meta property="og:title" content="AutoPro — Premium Custom Car Seat Covers">
+<meta property="og:description" content="Leather, tailored to your car. Karol Bagh craftsmanship, fitted at your doorstep across Delhi NCR.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%230B0B0D'/%3E%3Ctext x='32' y='44' font-family='Georgia,serif' font-size='30' font-weight='bold' fill='%23C8A86B' text-anchor='middle'%3Eap%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,400;1,9..144,500&family=Jost:wght@300;400;500;600&display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+tailwind.config={theme:{extend:{
+  colors:{obsidian:'#0B0B0D',charcoal:'#141317',graphite:'#1C1B20',onyx:'#2A2930',cognac:'#A15C34',saddle:'#6E4326',champagne:'#C8A86B',champagnesoft:'#D8C291',crimson:'#B31E28',ivory:'#F2ECE0',smoke:'#BAB5AA'},
+  fontFamily:{serif:['Fraunces','serif'],sans:['Jost','sans-serif']}
+}}};
+</script>
+<style>
+:root{--obsidian:#0B0B0D;--charcoal:#141317;--graphite:#1C1B20;--onyx:#2A2930;--cognac:#A15C34;--saddle:#6E4326;--champagne:#C8A86B;--crimson:#B31E28;--thread:#FF2E3A;--ivory:#F2ECE0;--smoke:#BAB5AA}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:#0B0B0D;color:var(--ivory);font-family:'Jost',system-ui,sans-serif;font-weight:400;line-height:1.7;-webkit-font-smoothing:antialiased;overflow-x:hidden;position:relative}
+.serif{font-family:'Fraunces',Georgia,serif;font-optical-sizing:auto}
+.mono-lab{font-family:'Jost';font-weight:500;letter-spacing:.26em;text-transform:uppercase}
+
+body::before{content:"";position:fixed;inset:0;z-index:-2;background-color:#0c0c0e;
+  background-image:
+    repeating-linear-gradient(45deg,rgba(0,0,0,.45) 0 1px,transparent 1px 58px),
+    repeating-linear-gradient(-45deg,rgba(0,0,0,.45) 0 1px,transparent 1px 58px),
+    radial-gradient(circle at 50% 0%,rgba(200,168,107,.05),transparent 55%),
+    radial-gradient(rgba(255,255,255,.012) .5px,transparent .5px);
+  background-size:82px 82px,82px 82px,auto,4px 4px}
+body::after{content:"";position:fixed;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(135% 95% at 50% 6%,transparent 48%,rgba(0,0,0,.6) 100%)}
+
+.frame{position:fixed;inset:0;z-index:40;pointer-events:none}
+.frame::before{content:"";position:absolute;inset:12px;border:1px solid rgba(200,168,107,.5);border-radius:10px;box-shadow:inset 0 0 26px rgba(0,0,0,.5)}
+@media(max-width:640px){.frame::before{inset:8px}}
+
+.seam{height:0;border-top:1px dashed rgba(255,46,58,.5);opacity:.55}
+.over{font-family:'Jost';font-weight:500;font-size:12px;letter-spacing:.3em;text-transform:uppercase;color:var(--champagne)}
+
+.btn{display:inline-flex;align-items:center;gap:9px;font-family:'Jost';font-weight:500;font-size:12px;letter-spacing:.2em;text-transform:uppercase;padding:15px 30px;border-radius:2px;text-decoration:none;cursor:pointer;transition:all .25s;border:1px solid transparent}
+.btn-primary{background:var(--cognac);color:var(--ivory)}
+.btn-primary:hover{background:var(--saddle)}
+.btn-ghost{border-color:rgba(200,168,107,.6);color:var(--champagne)}
+.btn-ghost:hover{background:var(--champagne);color:var(--obsidian)}
+.wa-btn{background:#25D366;color:#07251a;font-weight:600}
+.wa-btn:hover{background:#20bd5b}
+
+#hdr{transition:background .3s,backdrop-filter .3s,border-color .3s;border-bottom:1px solid transparent}
+#hdr.scrolled{background:rgba(11,11,13,.85);backdrop-filter:blur(12px);border-bottom:1px solid rgba(200,168,107,.25)}
+
+.kcard{background:rgba(20,19,23,.6);border:1px solid var(--onyx);border-radius:6px;position:relative;overflow:hidden;transition:transform .25s,border-color .25s}
+.kcard::before{content:"";position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,var(--champagne),transparent);opacity:.45}
+.kcard:hover{transform:translateY(-5px);border-color:rgba(200,168,107,.4)}
+
+.stitch line{stroke:var(--thread);stroke-width:2.5;stroke-dasharray:13 10;stroke-linecap:round}
+
+html.motion .rv{opacity:0;transform:translateY(24px);transition:opacity .7s ease,transform .7s ease}
+html.motion .rv.in{opacity:1;transform:none}
+
+/* ---- lit leather seat preview ---- */
+.seat{position:relative;width:100%;aspect-ratio:4/3;border-radius:16px;overflow:hidden;
+  border:9px solid var(--cognac);transition:border-color .35s;
+  box-shadow:0 24px 55px rgba(0,0,0,.6),inset 0 0 0 1px rgba(255,255,255,.1)}
+.seat-base{position:absolute;inset:0;transition:background .35s}
+.seat-pattern{position:absolute;inset:0;transition:background-image .2s,opacity .2s}
+.seat-perf{position:absolute;inset:0;opacity:0;
+  background-image:radial-gradient(circle,rgba(0,0,0,.7) 1.4px,rgba(255,255,255,.07) 2px,transparent 2.6px);
+  background-size:13px 13px;transition:opacity .35s}
+.seat-sheen{position:absolute;inset:0;pointer-events:none;transition:opacity .35s;
+  background:radial-gradient(125% 75% at 50% -10%,rgba(255,255,255,.2),transparent 56%),
+             radial-gradient(110% 85% at 50% 118%,rgba(0,0,0,.55),transparent 60%)}
+.seat-bolL,.seat-bolR{position:absolute;top:0;bottom:0;width:13%;z-index:2}
+.seat-bolL{left:0;background:linear-gradient(90deg,rgba(0,0,0,.5),rgba(0,0,0,0))}
+.seat-bolR{right:0;background:linear-gradient(270deg,rgba(0,0,0,.5),rgba(0,0,0,0))}
+.seat-stitch{position:absolute;inset:18px;z-index:3;border:2.5px dashed var(--thread);border-radius:10px;transition:border-color .3s}
+
+.swatch{cursor:pointer;border:1px solid var(--onyx);border-radius:4px;padding:11px 8px;text-align:center;font-size:11px;letter-spacing:.08em;color:var(--smoke);background:rgba(20,19,23,.5);transition:all .2s;font-weight:500;text-transform:uppercase}
+.swatch:hover{border-color:rgba(200,168,107,.5);color:var(--ivory)}
+.swatch.on{border-color:var(--champagne);color:var(--ivory);box-shadow:inset 0 0 0 1px var(--champagne)}
+.swdot{width:100%;height:26px;border-radius:3px;margin-bottom:7px;border:1px solid rgba(255,255,255,.12)}
+
+input,select,textarea{font-family:inherit}
+::placeholder{color:#75716a}
+.fld{width:100%;background:rgba(0,0,0,.4);border:1px solid var(--onyx);border-radius:4px;padding:13px 15px;font-size:14px;color:var(--ivory);outline:none;transition:border-color .2s}
+.fld:focus{border-color:var(--champagne)}
+
+.fab{position:fixed;right:22px;bottom:22px;z-index:45;width:56px;height:56px;border-radius:50%;background:#25D366;display:flex;align-items:center;justify-content:center;box-shadow:0 6px 20px rgba(0,0,0,.5);transition:transform .2s}
+.fab:hover{transform:scale(1.08)}.fab svg{width:29px;height:29px;fill:#07251a}
+@media(max-width:640px){.fab{right:14px;bottom:14px}}
+a{color:inherit}
+</style>
+</head>
+<body>
+<div class="frame"></div>
+
+<header id="hdr" class="fixed top-0 left-0 w-full z-30">
+  <div class="max-w-6xl mx-auto px-7 sm:px-10 flex items-center justify-between py-5">
+    <a href="#top" class="flex items-baseline gap-2.5 no-underline">
+      <span class="serif text-2xl tracking-wide text-ivory" style="font-weight:600">AUTO<span class="text-cognac">PRO</span></span>
+      <span class="hidden sm:inline text-[10px] tracking-[0.3em] text-smoke font-medium">KAROL BAGH</span>
+    </a>
+    <nav class="hidden md:flex gap-8">
+      <a href="#why" class="text-smoke hover:text-champagne text-[11px] tracking-[0.18em] uppercase transition no-underline">Why Us</a>
+      <a href="#build" class="text-smoke hover:text-champagne text-[11px] tracking-[0.18em] uppercase transition no-underline">Build</a>
+      <a href="#materials" class="text-smoke hover:text-champagne text-[11px] tracking-[0.18em] uppercase transition no-underline">Materials</a>
+      <a href="#work" class="text-smoke hover:text-champagne text-[11px] tracking-[0.18em] uppercase transition no-underline">Our Work</a>
+      <a href="#visit" class="text-smoke hover:text-champagne text-[11px] tracking-[0.18em] uppercase transition no-underline">Visit</a>
+    </nav>
+    <div class="flex items-center gap-3">
+      <a href="https://wa.me/919145699065" class="btn btn-ghost hidden sm:inline-flex !py-2.5 !px-4 text-[11px]">WhatsApp</a>
+      <button id="burger" aria-label="Menu" class="md:hidden text-ivory text-2xl leading-none bg-transparent border-0 cursor-pointer">&#9776;</button>
+    </div>
+  </div>
+  <div id="mmenu" class="md:hidden hidden px-7 pb-5">
+    <div class="flex flex-col gap-1 rounded p-4 border border-onyx" style="background:rgba(11,11,13,.95)">
+      <a href="#why" class="mnav py-2 text-smoke text-sm tracking-wide uppercase no-underline">Why Us</a>
+      <a href="#build" class="mnav py-2 text-smoke text-sm tracking-wide uppercase no-underline">Build Your Seat</a>
+      <a href="#materials" class="mnav py-2 text-smoke text-sm tracking-wide uppercase no-underline">Materials</a>
+      <a href="#work" class="mnav py-2 text-smoke text-sm tracking-wide uppercase no-underline">Our Work</a>
+      <a href="#visit" class="mnav py-2 text-smoke text-sm tracking-wide uppercase no-underline">Visit</a>
+      <a href="https://wa.me/919145699065" class="btn btn-primary mt-3 justify-center">Message on WhatsApp</a>
+    </div>
+  </div>
+</header>
+
+<!-- HERO -->
+<section id="top" class="relative overflow-hidden pt-36 sm:pt-44 pb-24">
+  <div class="serif absolute right-[-2%] top-1/2 -translate-y-1/2 z-0 select-none pointer-events-none" style="font-weight:600;font-size:clamp(200px,32vw,420px);color:#0c0c0f;text-shadow:0 2px 0 rgba(255,255,255,.04),0 -2px 1px rgba(0,0,0,.8)">ap</div>
+  <div class="max-w-6xl mx-auto px-7 sm:px-10 relative z-10">
+    <div class="max-w-2xl rv">
+      <p class="over mb-6">Custom Car Seat Covers · Karol Bagh, New Delhi</p>
+      <h1 class="serif text-ivory leading-[0.98] tracking-tight" style="font-weight:600;font-size:clamp(52px,8vw,100px)">Leather, <span class="italic text-champagne" style="font-weight:500">tailored</span><br>to your car.</h1>
+      <svg class="stitch block my-7 h-3.5" style="width:min(460px,80%)" viewBox="0 0 460 14" preserveAspectRatio="none" aria-hidden="true"><line x1="2" y1="7" x2="458" y2="7"/></svg>
+      <p class="text-smoke mb-9 max-w-lg" style="font-size:clamp(16px,1.7vw,19px)">Leather cut, quilted and stitched to your exact car — custom-fit, not universal. Fitted at our Karol Bagh studio, or at your doorstep anywhere in Delhi NCR.</p>
+      <div class="flex flex-wrap gap-4 mb-10">
+        <a href="#build" class="btn btn-primary">Build your seat</a>
+        <a href="https://wa.me/919145699065" class="btn btn-ghost">Book a fitting</a>
+      </div>
+      <div class="flex flex-wrap gap-8">
+        <div><div class="serif text-3xl text-ivory" style="font-weight:600">Full-grain</div><div class="over text-[10px] mt-1">Leather</div></div>
+        <div><div class="serif text-3xl text-ivory" style="font-weight:600">Custom</div><div class="over text-[10px] mt-1">Fitment</div></div>
+        <div><div class="serif text-3xl text-ivory" style="font-weight:600">24 months</div><div class="over text-[10px] mt-1">Warranty</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+<div class="max-w-6xl mx-auto px-7 sm:px-10"><div class="seam"></div></div>
+
+<!-- TRUST -->
+<section class="max-w-6xl mx-auto px-7 sm:px-10 py-10">
+  <div class="rv">
+    <p class="serif italic text-center text-smoke mb-7" style="font-size:22px">Trusted by Delhi's car community.</p>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-6 text-center">
+      <div><div class="serif text-4xl text-ivory" style="font-weight:600">5,000<span class="text-cognac">+</span></div><div class="over text-[10px] mt-1">Cars Fitted</div></div>
+      <div><div class="serif text-4xl text-ivory" style="font-weight:600">300<span class="text-cognac">+</span></div><div class="over text-[10px] mt-1">Car Models</div></div>
+      <div><div class="serif text-4xl text-ivory" style="font-weight:600">NCR</div><div class="over text-[10px] mt-1">Doorstep Fitting</div></div>
+      <div><div class="serif text-4xl text-ivory" style="font-weight:600">4.8<span class="text-cognac">★</span></div><div class="over text-[10px] mt-1">Rated</div></div>
+    </div>
+  </div>
+</section>
+<div class="max-w-6xl mx-auto px-7 sm:px-10"><div class="seam"></div></div>
+
+<!-- WHY -->
+<section id="why" class="max-w-6xl mx-auto px-7 sm:px-10 py-20">
+  <div class="rv mb-10">
+    <p class="over mb-3">Why AutoPro</p>
+    <h2 class="serif text-ivory" style="font-weight:600;font-size:clamp(32px,4.6vw,50px)">Three standards we don't cut.</h2>
+  </div>
+  <div class="grid gap-5 md:grid-cols-3">
+    <div class="kcard p-7 rv"><div class="over text-cognac mb-3">01</div><h3 class="serif text-2xl text-ivory mb-2" style="font-weight:600">Tailored</h3><p class="text-smoke text-[14px]">Made to fit your exact car — measured, patterned and cut for your model, with cut-outs for airbags and headrests.</p></div>
+    <div class="kcard p-7 rv"><div class="over text-cognac mb-3">02</div><h3 class="serif text-2xl text-ivory mb-2" style="font-weight:600">Sculpted</h3><p class="text-smoke text-[14px]">Leather as finish — diamond quilting, bolsters and piping that make an ordinary cabin look a class above.</p></div>
+    <div class="kcard p-7 rv"><div class="over text-cognac mb-3">03</div><h3 class="serif text-2xl text-ivory mb-2" style="font-weight:600">Impeccable</h3><p class="text-smoke text-[14px]">Precision you can see — clean seams, even stitches and a fit with no gaps. The detail Karol Bagh is known for.</p></div>
+  </div>
+</section>
+<div class="max-w-6xl mx-auto px-7 sm:px-10"><div class="seam"></div></div>
+
+<!-- BUILD -->
+<section id="build" class="max-w-6xl mx-auto px-7 sm:px-10 py-20">
+  <div class="rv mb-10">
+    <p class="over mb-3">Build Your Seat</p>
+    <h2 class="serif text-ivory" style="font-weight:600;font-size:clamp(32px,4.6vw,50px)">Design your <span class="italic text-champagne" style="font-weight:500">seat</span>.</h2>
+    <p class="text-smoke text-[15px] max-w-xl mt-3">Choose the leather, the quilt, the piping and the thread — see it come together, then send your spec to us on WhatsApp.</p>
+  </div>
+  <div class="grid lg:grid-cols-2 gap-10 items-start">
+    <div class="rv lg:sticky lg:top-24">
+      <div class="seat" id="seat">
+        <div class="seat-base" id="seatBase"></div>
+        <div class="seat-pattern" id="seatPattern"></div>
+        <div class="seat-perf" id="seatPerf"></div>
+        <div class="seat-sheen" id="seatSheen"></div>
+        <div class="seat-bolL"></div><div class="seat-bolR"></div>
+        <div class="seat-stitch" id="seatStitch"></div>
+      </div>
+      <p id="specLine" class="mono-lab text-champagne text-[11px] text-center mt-5">Nappa · Diamond · Cognac piping · Contrast stitch</p>
+    </div>
+    <div class="rv">
+      <div class="mb-6">
+        <p class="over mb-3">Leather</p>
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-2.5" id="optLeather">
+          <div class="swatch on" data-v="nappa"><div class="swdot" style="background:linear-gradient(145deg,#39343f,#211d26)"></div>Nappa</div>
+          <div class="swatch" data-v="aniline"><div class="swdot" style="background:linear-gradient(145deg,#6e462a,#3f2615)"></div>Semi-aniline</div>
+          <div class="swatch" data-v="alcantara"><div class="swdot" style="background:linear-gradient(145deg,#484852,#2c2c33)"></div>Alcantara</div>
+          <div class="swatch" data-v="perforated"><div class="swdot" style="background:#342a30;background-image:radial-gradient(circle,rgba(0,0,0,.6) .9px,transparent 1.3px);background-size:6px 6px"></div>Perforated</div>
+        </div>
+      </div>
+      <div class="mb-6">
+        <p class="over mb-3">Quilt / Stitch pattern</p>
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-2.5" id="optPattern">
+          <div class="swatch on" data-v="diamond">Diamond</div>
+          <div class="swatch" data-v="hex">Hex</div>
+          <div class="swatch" data-v="oem">OEM+</div>
+          <div class="swatch" data-v="plain">Plain</div>
+        </div>
+      </div>
+      <div class="mb-6">
+        <p class="over mb-3">Piping</p>
+        <div class="grid grid-cols-2 sm:grid-cols-4 gap-2.5" id="optPiping">
+          <div class="swatch on" data-v="cognac"><div class="swdot" style="background:#A15C34"></div>Cognac</div>
+          <div class="swatch" data-v="champagne"><div class="swdot" style="background:#C8A86B"></div>Champagne</div>
+          <div class="swatch" data-v="crimson"><div class="swdot" style="background:#B31E28"></div>Crimson</div>
+          <div class="swatch" data-v="tonal"><div class="swdot" style="background:#3a3a40"></div>Tonal</div>
+        </div>
+      </div>
+      <div class="mb-8">
+        <p class="over mb-3">Thread</p>
+        <div class="grid grid-cols-2 gap-2.5" id="optThread">
+          <div class="swatch on" data-v="contrast"><div class="swdot" style="background:#FF2E3A"></div>Contrast red</div>
+          <div class="swatch" data-v="matched"><div class="swdot" style="background:#9a8f88"></div>Matched</div>
+        </div>
+      </div>
+      <a id="buildWa" href="#" class="btn wa-btn w-full justify-center">Send my spec on WhatsApp</a>
+      <p class="text-smoke text-[12px] text-center mt-3">We'll confirm your car model and give a tailored quote the same day.</p>
+    </div>
+  </div>
+</section>
+<div class="max-w-6xl mx-auto px-7 sm:px-10"><div class="seam"></div></div>
+
+<!-- MATERIALS -->
+<section id="materials" class="max-w-6xl mx-auto px-7 sm:px-10 py-20">
+  <div class="rv mb-10">
+    <p class="over mb-3">Materials &amp; Durability</p>
+    <h2 class="serif text-ivory" style="font-weight:600;font-size:clamp(32px,4.6vw,50px)">Built to last Indian roads.</h2>
+  </div>
+  <div class="grid grid-cols-2 lg:grid-cols-4 gap-4 auto-rows-[150px]">
+    <div class="kcard p-6 col-span-2 row-span-2 flex flex-col justify-end rv" style="background:linear-gradient(145deg,rgba(40,28,20,.8),rgba(20,19,23,.6))">
+      <h3 class="serif text-3xl text-ivory" style="font-weight:600">Nappa &amp; full-grain leather</h3>
+      <p class="text-smoke text-[14px] mt-2">Soft, rich and hard-wearing. Resists cracking and fading through Delhi summers.</p>
+    </div>
+    <div class="kcard p-5 flex flex-col justify-end rv"><h4 class="serif text-xl text-ivory" style="font-weight:600">Alcantara</h4><p class="text-smoke text-[12px] mt-1">Suede-feel, grippy.</p></div>
+    <div class="kcard p-5 flex flex-col justify-end rv"><h4 class="serif text-xl text-ivory" style="font-weight:600">Breathable</h4><p class="text-smoke text-[12px] mt-1">Perforated &amp; cool.</p></div>
+    <div class="kcard p-5 col-span-2 flex flex-col justify-end rv"><h4 class="serif text-xl text-ivory" style="font-weight:600">Airbag-safe certified</h4><p class="text-smoke text-[12px] mt-1">Side-airbag seams tested — safety never compromised.</p></div>
+    <div class="kcard p-5 flex flex-col justify-end rv"><h4 class="serif text-xl text-ivory" style="font-weight:600">Stitch craft</h4><p class="text-smoke text-[12px] mt-1">Even, tight topstitching.</p></div>
+    <div class="kcard p-5 flex flex-col justify-end rv"><h4 class="serif text-xl text-ivory" style="font-weight:600">24-mo warranty</h4><p class="text-smoke text-[12px] mt-1">Material &amp; stitching.</p></div>
+  </div>
+</section>
+<div class="max-w-6xl mx-auto px-7 sm:px-10"><div class="seam"></div></div>
+
+<!-- WORKSHOP -->
+<section class="max-w-6xl mx-auto px-7 sm:px-10 py-20">
+  <div class="rv mb-10">
+    <p class="over mb-3">The Workshop</p>
+    <h2 class="serif text-ivory" style="font-weight:600;font-size:clamp(32px,4.6vw,50px)">Handcrafted in <span class="italic text-champagne" style="font-weight:500">Karol Bagh</span>.</h2>
+    <p class="text-smoke text-[15px] max-w-xl mt-3">The same care on a Creta as on a Mercedes.</p>
+  </div>
+  <div class="grid grid-cols-2 lg:grid-cols-4 gap-4">
+    <div class="kcard p-6 rv"><div class="over text-cognac mb-3">01</div><h4 class="serif text-xl text-ivory" style="font-weight:600">Measure</h4><p class="text-smoke text-[13px] mt-1">Templated to your exact seat shape.</p></div>
+    <div class="kcard p-6 rv"><div class="over text-cognac mb-3">02</div><h4 class="serif text-xl text-ivory" style="font-weight:600">Cut</h4><p class="text-smoke text-[13px] mt-1">Leather hand-cut to the pattern.</p></div>
+    <div class="kcard p-6 rv"><div class="over text-cognac mb-3">03</div><h4 class="serif text-xl text-ivory" style="font-weight:600">Stitch</h4><p class="text-smoke text-[13px] mt-1">Quilted and topstitched by hand.</p></div>
+    <div class="kcard p-6 rv"><div class="over text-cognac mb-3">04</div><h4 class="serif text-xl text-ivory" style="font-weight:600">Inspect</h4><p class="text-smoke text-[13px] mt-1">Checked seam-by-seam before fitting.</p></div>
+  </div>
+</section>
+<div class="max-w-6xl mx-auto px-7 sm:px-10"><div class="seam"></div></div>
+
+<!-- LOOKBOOK -->
+<section id="work" class="max-w-6xl mx-auto px-7 sm:px-10 py-20">
+  <div class="rv mb-10">
+    <p class="over mb-3">Our Work</p>
+    <h2 class="serif text-ivory" style="font-weight:600;font-size:clamp(32px,4.6vw,50px)">Cabins, transformed.</h2>
+    <p class="text-smoke text-[15px] mt-3">From Thar to luxury sedans — every car, made a class above.</p>
+  </div>
+  <div class="grid gap-5 sm:grid-cols-3">
+    <div class="kcard overflow-hidden rv"><div class="h-48" style="background:#2a2028;background-image:radial-gradient(125% 75% at 50% -10%,rgba(255,255,255,.14),transparent 55%),repeating-linear-gradient(45deg,rgba(0,0,0,.55) 0 2px,transparent 2px 36px),repeating-linear-gradient(-45deg,rgba(0,0,0,.55) 0 2px,transparent 2px 36px),repeating-linear-gradient(45deg,rgba(255,255,255,.07) 2px 3px,transparent 3px 36px),repeating-linear-gradient(-45deg,rgba(255,255,255,.07) 2px 3px,transparent 3px 36px)"></div><div class="p-5"><h4 class="serif text-xl text-ivory" style="font-weight:600">Mahindra Thar</h4><p class="text-smoke text-[12px] mt-1 mono-lab">Diamond · Cognac</p></div></div>
+    <div class="kcard overflow-hidden rv"><div class="h-48" style="background:#5c3a23;background-image:radial-gradient(125% 75% at 50% -10%,rgba(255,255,255,.14),transparent 55%),radial-gradient(circle,rgba(0,0,0,.6) 1.4px,rgba(255,255,255,.06) 2px,transparent 2.6px);background-size:auto,13px 13px"></div><div class="p-5"><h4 class="serif text-xl text-ivory" style="font-weight:600">Toyota Fortuner</h4><p class="text-smoke text-[12px] mt-1 mono-lab">Perforated · Champagne</p></div></div>
+    <div class="kcard overflow-hidden rv"><div class="h-48" style="background:#3a3a42;background-image:radial-gradient(125% 75% at 50% -10%,rgba(255,255,255,.12),transparent 55%),repeating-linear-gradient(90deg,rgba(0,0,0,.55) 0 2px,rgba(255,255,255,.05) 2px 3.5px,transparent 3.5px 28px)"></div><div class="p-5"><h4 class="serif text-xl text-ivory" style="font-weight:600">Mercedes E-Class</h4><p class="text-smoke text-[12px] mt-1 mono-lab">OEM+ · Tonal</p></div></div>
+  </div>
+</section>
+<div class="max-w-6xl mx-auto px-7 sm:px-10"><div class="seam"></div></div>
+
+<!-- VISIT -->
+<section id="visit" class="max-w-6xl mx-auto px-7 sm:px-10 py-20">
+  <div class="grid lg:grid-cols-2 gap-12 items-start">
+    <div class="rv">
+      <p class="over mb-3">Visit Us</p>
+      <h2 class="serif text-ivory leading-tight" style="font-weight:600;font-size:clamp(32px,4.6vw,52px)">Come see us in <span class="italic text-champagne" style="font-weight:500">Karol Bagh</span>.</h2>
+      <p class="text-smoke text-[15px] max-w-md mt-4 mb-7">Visit the studio, or book a fitting at your home or office anywhere in Delhi NCR. Send us your car model on WhatsApp for a same-day quote.</p>
+      <div class="flex flex-wrap gap-8 mb-8">
+        <div><div class="over text-[10px] mb-1">Marketing — Akhilesh Pandey</div><div class="serif text-xl text-ivory" style="font-weight:600">+91 91456 99065</div></div>
+        <div><div class="over text-[10px] mb-1">Enquiries</div><div class="serif text-xl text-ivory" style="font-weight:600">+91 85279 8421</div></div>
+      </div>
+      <a href="https://wa.me/919145699065" class="btn wa-btn">Message on WhatsApp</a>
+    </div>
+    <div class="kcard p-7 rv">
+      <h3 class="serif text-xl text-ivory mb-5" style="font-weight:600">Request a quote</h3>
+      <form id="quoteForm" class="flex flex-col gap-3.5">
+        <input name="name" class="fld" placeholder="Your name" required>
+        <input name="car" class="fld" placeholder="Car model (e.g. Toyota Fortuner)" required>
+        <select name="grade" class="fld">
+          <option>Base — smooth leatherette</option>
+          <option>Premium — perforated + stitching</option>
+          <option>Luxury — diamond-quilted</option>
+        </select>
+        <textarea name="msg" rows="3" class="fld resize-none" placeholder="Anything specific? (optional)"></textarea>
+        <p id="formErr" class="hidden text-crimson text-xs mono-lab">Please add your name and car model.</p>
+        <button type="submit" class="btn wa-btn justify-center mt-1">Send on WhatsApp</button>
+      </form>
+    </div>
+  </div>
+</section>
+<div class="max-w-6xl mx-auto px-7 sm:px-10"><div class="seam"></div></div>
+
+<footer class="max-w-6xl mx-auto px-7 sm:px-10 py-12">
+  <div class="flex flex-col sm:flex-row items-center justify-between gap-5">
+    <a href="#top" class="serif text-xl tracking-wide no-underline text-ivory" style="font-weight:600">AUTO<span class="text-cognac">PRO</span></a>
+    <nav class="flex flex-wrap gap-6 justify-center">
+      <a href="#build" class="text-smoke hover:text-champagne text-[11px] uppercase tracking-wide no-underline">Build</a>
+      <a href="#materials" class="text-smoke hover:text-champagne text-[11px] uppercase tracking-wide no-underline">Materials</a>
+      <a href="#work" class="text-smoke hover:text-champagne text-[11px] uppercase tracking-wide no-underline">Our Work</a>
+      <a href="#visit" class="text-smoke hover:text-champagne text-[11px] uppercase tracking-wide no-underline">Visit</a>
+    </nav>
+  </div>
+  <p class="serif italic text-champagne text-center mt-8" style="font-size:22px">Your car, a class above.</p>
+  <p class="text-smoke text-[11px] text-center mt-3 mono-lab" style="letter-spacing:.1em">© 2026 AutoPro · Karol Bagh, New Delhi · Demo — placeholder metrics &amp; imagery</p>
+</footer>
+
+<a href="https://wa.me/919145699065" class="fab" aria-label="Chat on WhatsApp">
+  <svg viewBox="0 0 32 32" aria-hidden="true"><path d="M16 3C9.4 3 4 8.4 4 15c0 2.1.6 4.1 1.6 5.9L4 29l8.3-1.6c1.7.9 3.6 1.4 5.7 1.4 6.6 0 12-5.4 12-12S22.6 3 16 3zm0 21.8c-1.8 0-3.5-.5-5-1.4l-.4-.2-4.9 1 1-4.8-.3-.4C5.5 18 5 16.5 5 15 5 9.9 9.9 6 16 6s11 3.9 11 9-4.9 9.8-11 9.8zm5.5-7.4c-.3-.2-1.8-.9-2-1-.3-.1-.5-.2-.7.2-.2.3-.8 1-1 1.2-.2.2-.4.2-.7.1-1.8-.9-3-1.6-4.2-3.6-.3-.5.3-.5.8-1.6.1-.2 0-.4 0-.5 0-.2-.7-1.7-1-2.3-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.5s1.1 2.9 1.2 3.1c.2.2 2.1 3.3 5.2 4.6 2 .8 2.7.9 3.7.8.6-.1 1.8-.8 2.1-1.5.3-.7.3-1.4.2-1.5-.1-.2-.3-.2-.6-.4z"/></svg>
+</a>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script>
+(function(){
+  var hdr=document.getElementById('hdr');
+  function onScroll(){hdr.classList.toggle('scrolled',window.scrollY>24)}
+  onScroll();window.addEventListener('scroll',onScroll,{passive:true});
+  var burger=document.getElementById('burger'),mmenu=document.getElementById('mmenu');
+  burger.addEventListener('click',function(){mmenu.classList.toggle('hidden')});
+  document.querySelectorAll('.mnav').forEach(function(a){a.addEventListener('click',function(){mmenu.classList.add('hidden')})});
+
+  /* ---------- configurator ---------- */
+  var S={leather:'nappa',pattern:'diamond',piping:'cognac',thread:'contrast'};
+  var LEATHER={
+    nappa:{n:'Nappa',base:'#2b2731',sheen:1,perf:0},
+    aniline:{n:'Semi-aniline',base:'#5c3a23',sheen:.85,perf:0},
+    alcantara:{n:'Alcantara',base:'#3b3b44',sheen:.4,perf:0},
+    perforated:{n:'Perforated',base:'#362c32',sheen:.8,perf:1}
+  };
+  var PIPING={cognac:{n:'Cognac',c:'#A15C34'},champagne:{n:'Champagne',c:'#C8A86B'},crimson:{n:'Crimson',c:'#B31E28'},tonal:{n:'Tonal',c:'#3a3a40'}};
+  var THREAD={contrast:{n:'Contrast',c:'#FF2E3A'},matched:{n:'Matched',c:'#9a8f88'}};
+  var PATTERN={diamond:'Diamond',hex:'Hex',oem:'OEM+',plain:'Plain'};
+  function patternCss(p){
+    if(p==='diamond')return 'repeating-linear-gradient(45deg,rgba(0,0,0,.6) 0 2px,transparent 2px 46px),repeating-linear-gradient(-45deg,rgba(0,0,0,.6) 0 2px,transparent 2px 46px),repeating-linear-gradient(45deg,rgba(255,255,255,.1) 2px 3.5px,transparent 3.5px 46px),repeating-linear-gradient(-45deg,rgba(255,255,255,.1) 2px 3.5px,transparent 3.5px 46px)';
+    if(p==='hex')return 'repeating-linear-gradient(90deg,rgba(0,0,0,.55) 0 1.5px,transparent 1.5px 30px),repeating-linear-gradient(30deg,rgba(0,0,0,.55) 0 1.5px,transparent 1.5px 30px),repeating-linear-gradient(150deg,rgba(0,0,0,.55) 0 1.5px,transparent 1.5px 30px),repeating-linear-gradient(30deg,rgba(255,255,255,.06) 1.5px 2.5px,transparent 2.5px 30px)';
+    if(p==='oem')return 'repeating-linear-gradient(90deg,rgba(0,0,0,.6) 0 2px,rgba(255,255,255,.06) 2px 3.5px,transparent 3.5px 30px)';
+    return 'radial-gradient(rgba(255,255,255,.03) .6px,transparent .7px)';
+  }
+  var seat=document.getElementById('seat'),base=document.getElementById('seatBase'),pat=document.getElementById('seatPattern'),perf=document.getElementById('seatPerf'),sheen=document.getElementById('seatSheen'),stitch=document.getElementById('seatStitch'),spec=document.getElementById('specLine'),wa=document.getElementById('buildWa');
+  function render(){
+    base.style.background=LEATHER[S.leather].base;
+    sheen.style.opacity=LEATHER[S.leather].sheen;
+    perf.style.opacity=LEATHER[S.leather].perf?1:0;
+    pat.style.backgroundImage=patternCss(S.pattern);
+    pat.style.backgroundSize=(S.pattern==='plain'?'5px 5px':'auto');
+    seat.style.borderColor=PIPING[S.piping].c;
+    stitch.style.borderColor=THREAD[S.thread].c;
+    spec.textContent=LEATHER[S.leather].n+' · '+PATTERN[S.pattern]+' · '+PIPING[S.piping].n+' piping · '+THREAD[S.thread].n+' stitch';
+    var msg='Hi AutoPro! I built a seat spec on your site:%0A%0A'+
+      'Leather: '+LEATHER[S.leather].n+'%0A'+
+      'Pattern: '+PATTERN[S.pattern]+'%0A'+
+      'Piping: '+PIPING[S.piping].n+'%0A'+
+      'Thread: '+THREAD[S.thread].n+'%0A%0APlease share a quote for my car.';
+    wa.href='https://wa.me/919145699065?text='+msg;
+  }
+  function bind(groupId,key){
+    var g=document.getElementById(groupId);
+    g.querySelectorAll('.swatch').forEach(function(sw){
+      sw.addEventListener('click',function(){
+        g.querySelectorAll('.swatch').forEach(function(x){x.classList.remove('on')});
+        sw.classList.add('on');S[key]=sw.getAttribute('data-v');render();
+      });
+    });
+  }
+  bind('optLeather','leather');bind('optPattern','pattern');bind('optPiping','piping');bind('optThread','thread');
+  render();
+
+  /* ---------- quote form ---------- */
+  var form=document.getElementById('quoteForm'),err=document.getElementById('formErr');
+  form.addEventListener('submit',function(e){
+    e.preventDefault();
+    var n=form.name.value.trim(),c=form.car.value.trim();
+    if(!n||!c){err.classList.remove('hidden');return}
+    err.classList.add('hidden');
+    var t='Hi AutoPro! I\'d like a quote.%0A%0AName: '+encodeURIComponent(n)+'%0ACar: '+encodeURIComponent(c)+'%0AGrade: '+encodeURIComponent(form.grade.value);
+    var m=form.msg.value.trim();if(m)t+='%0ANote: '+encodeURIComponent(m);
+    window.location.href='https://wa.me/919145699065?text='+t;
+  });
+  ['name','car'].forEach(function(k){form[k].addEventListener('input',function(){err.classList.add('hidden')})});
+
+  /* ---------- motion ---------- */
+  if(window.matchMedia('(prefers-reduced-motion: reduce)').matches)return;
+  document.documentElement.classList.add('motion');
+  var line=document.querySelector('.stitch line');
+  if(line&&window.gsap){line.style.strokeDashoffset=480;line.style.strokeDasharray='480';
+    gsap.to(line,{strokeDashoffset:0,duration:1.4,delay:.3,ease:'power2.out',onComplete:function(){line.style.strokeDasharray='13 10'}});}
+  var items=document.querySelectorAll('.rv');
+  if('IntersectionObserver' in window){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{rootMargin:'0px 0px -8% 0px',threshold:.08});
+    items.forEach(function(el){io.observe(el)});
+    setTimeout(function(){items.forEach(function(el){el.classList.add('in')})},1600);
+  }else{items.forEach(function(el){el.classList.add('in')})}
+})();
+</script>
+</body>
+</html>
